@@ -25,7 +25,8 @@ jobs:
           channel: 'stable'
 
       # Build APK
-      - run: flutter build apk --release --split-per-abi
+      # - run: flutter build apk --release --split-per-abi
+      - run: flutter build apk --release 
 
       # Push to Releases
       - name: Push to Releases
