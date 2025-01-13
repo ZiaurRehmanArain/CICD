@@ -128,7 +128,7 @@ class LocationView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Get Location Using GetX'),
+        title: Text('Get Location Using GetX  Get demo app'),
       ),
       body: Center(
         child: Column(
